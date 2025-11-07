@@ -64,7 +64,16 @@ pip list
 
 1. Place data files in `data/` and `master_data/` folders.
 
-2. Run notebooks in order:
+2. Ensure correct folder structure for notebooks or scripts
+   Move the Jupyter Notebooks (or Python scripts) into the main project folder or a designated working directory.
+   It is important that this folder contains the following subfolders:
+
+   data/ (for transactional data files)
+   master_data/ (for master data files)
+
+   This structure ensures that all relative paths in the notebooks and scripts work correctly during execution.
+
+3. Run notebooks in order:
 
     Data_Scientist_Capstone_1_Prepare_and_Clean_Data.ipynb
     Data_Scientist_Capstone_2_Analysis_and_Plots.ipynb
